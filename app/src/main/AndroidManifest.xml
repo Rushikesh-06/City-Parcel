@@ -16,6 +16,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CityParcel">
         <activity
+            android:name=".BaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".birthdate_anniversarydate"
+            android:exported="false" />
+        <activity
             android:name=".Verify_otp"
             android:exported="false" />
         <activity

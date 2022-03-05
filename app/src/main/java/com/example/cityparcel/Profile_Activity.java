@@ -21,7 +21,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class Profile_Activity extends AppCompatActivity {
     ImageView profilephoto;
-    TextView username;
+    TextView username,EmailId;
     Button logout;
     FirebaseAuth firebaseAuth;
     GoogleSignInClient googleSignInClient;
@@ -35,6 +35,7 @@ public class Profile_Activity extends AppCompatActivity {
         profilephoto = findViewById(R.id.profilephoto);
         logout = findViewById(R.id.logout);
         username = findViewById(R.id.username);
+        EmailId = findViewById(R.id.emailid);
 
         firebaseAuth = FirebaseAuth.getInstance();
         FirebaseUser currentuser = firebaseAuth.getCurrentUser();
@@ -46,6 +47,8 @@ public class Profile_Activity extends AppCompatActivity {
 
             //set name
             username.setText(currentuser.getDisplayName());
+            EmailId.setText(currentuser.getEmail());
+
         }
 
         googleSignInClient = GoogleSignIn.getClient(Profile_Activity.this, GoogleSignInOptions.DEFAULT_SIGN_IN);

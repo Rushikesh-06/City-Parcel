@@ -8,9 +8,193 @@
     tools:context=".Verify_otp">
 
 
-<com.mukesh.OtpView
-    android:layout_width="match_parent"
-    android:maxLength="4"
-    android:inputType="number"
-    android:layout_height="wrap_content"></com.mukesh.OtpView>
-</LinearLayout>
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="Verify Your Mobile "
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Enter the 4 digit code that was"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="send to your mobile number"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_below="@+id/heading"
+            android:id="@+id/otpedittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <EditText
+                android:background="@drawable/otpedittext"
+                android:layout_margin="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+            <EditText
+                android:background="@drawable/otpedittext"
+                android:layout_margin="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+            <EditText
+                android:background="@drawable/otpedittext"
+                android:layout_margin="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+            <EditText
+                android:background="@drawable/otpedittext"
+                android:layout_margin="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_below="@+id/heading"
+            android:id="@+id/otp_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+           <com.example.cityparcel.OtpEditText
+               android:layout_width="300dp"
+               android:layout_height="50dp"
+               android:textColor="@android:color/holo_red_dark"
+               android:textSize="40dp"
+               android:background="@drawable/otpedittext"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/resendsms_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/otpedittext"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Didn't receive the sms ?"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Request new code in 00:00"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/resendsms_layout"
+            android:id="@+id/verify_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/btn_verify_otp"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:background="@drawable/nextbtn"
+                android:padding="5dp"
+                android:text="VERIFY"
+                android:textSize="20dp"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+    </LinearLayout>

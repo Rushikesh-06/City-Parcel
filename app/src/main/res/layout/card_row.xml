@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="2dp"
+    android:layout_height="220dp">
+   <RelativeLayout
+       android:layout_margin="5dp"
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="match_parent">
+       <ImageView
+           android:id="@+id/image"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"></ImageView>
+       <TextView
+           android:layout_below="@+id/image"
+           android:id="@+id/title"
+           android:text="Alpha Hotel"
+
+           android:textStyle="bold"
+           android:textSize="10sp"
+           android:textAppearance="@style/MessengerButton.Blue.Large"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"></TextView>
+       <TextView
+           android:layout_below="@+id/title"
+           android:id="@+id/description"
+           android:textSize="8sp"
+           android:text="Lorem Ipsum has been thejevjfvsfe"
+           android:textAppearance="@style/MessengerButton.Blue.Small"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"></TextView>
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_alignParentBottom="true"
+           android:layout_marginBottom="5dp"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_width="100dp"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="5dp"
+               android:text="&#9733;&#9733;&#9733;&#9733;&#9734;"></TextView>
+
+           <TextView
+               android:textSize="10sp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="5dp"
+               android:text="10-20 min">
+
+           </TextView>
+       </RelativeLayout>
+   </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

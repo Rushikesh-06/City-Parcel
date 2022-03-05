@@ -3,17 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/calendar.xml" value="0.3375" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.3375" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/nextbtn.xml" value="0.3375" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/otpedittext.xml" value="0.3375" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/phoneno_et.xml" value="0.3375" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/activity_base.xml" value="0.32135416666666666" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/activity_birthdate_anniversarydate.xml" value="0.335" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/activity_log_in.xml" value="0.32135416666666666" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/activity_main.xml" value="0.32135416666666666" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/activity_pager.xml" value="0.32135416666666666" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/activity_profile.xml" value="0.32135416666666666" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/activity_splash_screen.xml" value="0.32135416666666666" />
-        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/activity_verify_otp.xml" value="0.175" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/activity_verify_otp.xml" value="0.335" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/card_row.xml" value="0.625" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/fragment_fragment1.xml" value="0.32135416666666666" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/fragment_fragment2.xml" value="0.32135416666666666" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/fragment_fragment3.xml" value="0.32135416666666666" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/fragment_home_fragment.xml" value="0.32135416666666666" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/menu/base_menu.xml" value="0.32135416666666666" />
       </map>
     </option>
   </component>

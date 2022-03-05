@@ -21,9 +21,10 @@ public class SplashScreen extends AppCompatActivity {
 
                 Intent splashcreenjump = new Intent(SplashScreen.this,PagerActivity.class);
                 startActivity(splashcreenjump);
-
+                finish();
             }
         },2000);
+
 
     }
 }
