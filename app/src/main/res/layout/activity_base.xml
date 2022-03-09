@@ -27,19 +27,19 @@
                 android:layout_centerVertical="true"
                 android:text="Location" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_centerVertical="true"
                 android:layout_gravity="center"
-                android:layout_marginLeft="45dp"
+                android:layout_marginLeft="60dp"
                 android:layout_toRightOf="@+id/location"
                 android:background="@android:color/white"
                 android:gravity="center_vertical"
-                android:text="LOGO"
-                android:padding="5dp"
+                android:padding="2dp"
+                android:src="@drawable/restaurant_logo"
                 android:textColor="@color/black"
-                android:textSize="35dp"
+                android:textSize="30dp"
                 android:textStyle="bold" />
 
 
@@ -52,20 +52,14 @@
         android:id="@+id/baseactivity_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/bottom_tabs"
+        android:layout_above="@+id/tab"
         android:layout_below="@+id/toolbar"></com.example.cityparcel.NonSwipableViewPager>
 
 
-    <LinearLayout
-        android:id="@+id/bottom_tabs"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_alignParentBottom="true"
-        android:background="@android:color/darker_gray"
-        android:orientation="horizontal">
-
-
-    </LinearLayout>
-
+<com.google.android.material.tabs.TabLayout
+    android:id="@+id/tab"
+    android:layout_width="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_height="wrap_content"/>
 
 </RelativeLayout>

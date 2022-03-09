@@ -16,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CityParcel">
         <activity
+            android:name=".DeatilList_activity"
+            android:exported="false" />
+        <activity
             android:name=".BaseActivity"
             android:exported="false" />
         <activity

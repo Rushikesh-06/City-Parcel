@@ -4,23 +4,43 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/calendar.xml" value="0.3375" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/ic_baseline_brunch_dining.xml" value="0.3375" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/ic_baseline_brunch_dining_orange.xml" value="0.3375" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/ic_baseline_home.xml" value="0.3375" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.3375" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/ic_baseline_home_orange.xml" value="0.3375" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/ic_baseline_person.xml" value="0.3375" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/ic_baseline_person_orange.xml" value="0.3375" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.3375" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.3375" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/ic_baseline_shopping_cart_orange.xml" value="0.19114583333333332" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/nextbtn.xml" value="0.3375" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/notebg.xml" value="0.3375" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/otpedittext.xml" value="0.3375" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/drawable/phoneno_et.xml" value="0.3375" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/activity_base.xml" value="0.32135416666666666" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/activity_birthdate_anniversarydate.xml" value="0.335" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/activity_deatil_list.xml" value="0.3095623987034036" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/activity_log_in.xml" value="0.32135416666666666" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/activity_main.xml" value="0.32135416666666666" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/activity_pager.xml" value="0.32135416666666666" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/activity_profile.xml" value="0.32135416666666666" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/activity_splash_screen.xml" value="0.32135416666666666" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/activity_verify_otp.xml" value="0.335" />
-        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/card_row.xml" value="0.625" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/card_row.xml" value="0.5" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/detail_list.xml" value="0.32135416666666666" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/detaillist_farmgift.xml" value="0.32135416666666666" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/farm_gift.xml" value="0.5" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/fragment_deatil_list_fragment.xml" value="0.32135416666666666" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/fragment_fragment1.xml" value="0.32135416666666666" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/fragment_fragment2.xml" value="0.32135416666666666" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/fragment_fragment3.xml" value="0.32135416666666666" />
-        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/fragment_home_fragment.xml" value="0.32135416666666666" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/fragment_framlist_fragment.xml" value="0.3171875" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/fragment_giftlist_fragment.xml" value="0.32135416666666666" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/fragment_home_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/fragment_mycart.xml" value="0.32135416666666666" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/fragment_restolist_fragment.xml" value="0.32135416666666666" />
+        <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/layout/scroll_image_layout.xml" value="0.32135416666666666" />
         <entry key="..\:/Users/Rushikesh Shingan/AndroidStudioProjects/CityParcel2/app/src/main/res/menu/base_menu.xml" value="0.32135416666666666" />
       </map>
     </option>

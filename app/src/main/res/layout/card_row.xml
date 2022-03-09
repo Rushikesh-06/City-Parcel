@@ -1,37 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="150dp"
+    android:layout_width="180dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="10dp"
-    android:elevation="2dp"
-    android:layout_height="220dp">
+    android:elevation="20dp"
+    android:layout_margin="8dp"
+    android:padding="5dp"
+    android:layout_height="260dp">
    <RelativeLayout
-       android:layout_margin="5dp"
+       android:elevation="10dp"
        android:layout_width="match_parent"
        android:orientation="vertical"
        android:layout_height="match_parent">
+
        <ImageView
            android:id="@+id/image"
            android:layout_width="match_parent"
-           android:layout_height="150dp"></ImageView>
-       <TextView
-           android:layout_below="@+id/image"
-           android:id="@+id/title"
-           android:text="Alpha Hotel"
+           android:layout_height="150dp"
+           android:scaleType="fitXY"></ImageView>
 
-           android:textStyle="bold"
-           android:textSize="10sp"
-           android:textAppearance="@style/MessengerButton.Blue.Large"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"></TextView>
        <TextView
-           android:layout_below="@+id/title"
-           android:id="@+id/description"
-           android:textSize="8sp"
-           android:text="Lorem Ipsum has been thejevjfvsfe"
-           android:textAppearance="@style/MessengerButton.Blue.Small"
+           android:id="@+id/title"
            android:layout_width="wrap_content"
-           android:layout_height="wrap_content"></TextView>
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/image"
+           android:text="Alpha Hotel"
+           android:layout_margin="3dp"
+           android:textAppearance="@style/MessengerButton.Blue.Large"
+           android:textSize="18sp"
+           android:textStyle="bold"></TextView>
+
+       <TextView
+           android:id="@+id/description"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/title"
+           android:layout_marginStart="3dp"
+           android:layout_marginTop="3dp"
+           android:layout_marginEnd="3dp"
+           android:layout_marginBottom="3dp"
+           android:text="Lorem Ipsum has been thejevjfvsfe "
+           android:textAppearance="@style/MessengerButton.Blue.Small"
+           android:textSize="11sp"></TextView>
        <RelativeLayout
            android:layout_width="match_parent"
            android:layout_alignParentBottom="true"
@@ -45,12 +55,13 @@
                android:text="&#9733;&#9733;&#9733;&#9733;&#9734;"></TextView>
 
            <TextView
-               android:textSize="10sp"
+               android:id="@+id/delivery_time"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:layout_alignParentRight="true"
                android:layout_marginRight="5dp"
-               android:text="10-20 min">
+               android:text="10-20 min"
+               android:textSize="10sp">
 
            </TextView>
        </RelativeLayout>
