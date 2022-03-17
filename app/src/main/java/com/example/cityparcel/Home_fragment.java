@@ -58,7 +58,7 @@ public class Home_fragment extends Fragment {
 
                 getActivity().getSupportFragmentManager().beginTransaction()
                         .setReorderingAllowed(true)
-                        .replace(R.id.homeframe, DeatilList_fragment.class, null)
+                        .replace(R.id.homeframe, new DeatilList_fragment(), null)
                         .commit();
             }
         });

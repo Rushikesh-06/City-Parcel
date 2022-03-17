@@ -45,7 +45,7 @@ public class BaseActivityAdapter extends FragmentPagerAdapter {
             case 1:
                 return "My Cart";
             case 2:
-                return "Diining";
+                return "Dining";
             case 3:
                 return "My Account";
             default:

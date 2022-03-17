@@ -11,6 +11,8 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.google.android.material.tabs.TabLayout;
 
@@ -20,6 +22,7 @@ public class BaseActivity extends AppCompatActivity {
     Toolbar toolbar;
     TabLayout tab;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,12 +31,19 @@ public class BaseActivity extends AppCompatActivity {
         tab = findViewById(R.id.tab);
 
         setSupportActionBar(toolbar);
-
-
         BaseActivity_Pager = findViewById(R.id.baseactivity_pager);
 
         BaseActivityAdapter basepageradapter = new com.example.cityparcel.BaseActivityAdapter(getSupportFragmentManager());
         BaseActivity_Pager.setAdapter(basepageradapter);
+
+
+     /*   favorite.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (true)
+                    favorite.setImageResource(R.drawable.ic_baseline_favorite_red);
+            }
+        });*/
 
 
         //tab layout icon set
@@ -70,6 +80,7 @@ public class BaseActivity extends AppCompatActivity {
                         case 0:
                             if (position == 0){
                                 tab.getTabAt(i).setIcon(R.drawable.ic_baseline_home_orange);
+
                             }else
                                 tab.getTabAt(i).setIcon(R.drawable.ic_baseline_home_24);
                             break;
@@ -139,6 +150,9 @@ public class BaseActivity extends AppCompatActivity {
                 return;
             }
             if (fragment instanceof Giftlist_fragment) {
+                getSupportFragmentManager().beginTransaction().remove(fragment).commit();
+                return;
+            }if (fragment instanceof RestaurantDetails) {
                 getSupportFragmentManager().beginTransaction().remove(fragment).commit();
                 return;
             }

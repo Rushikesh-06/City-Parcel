@@ -3,6 +3,7 @@ package com.example.cityparcel;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -40,14 +41,19 @@ public class Profile_Activity extends AppCompatActivity {
         firebaseAuth = FirebaseAuth.getInstance();
         FirebaseUser currentuser = firebaseAuth.getCurrentUser();
 
+
+        String str_username = currentuser.getDisplayName();
+        String str_email = currentuser.getEmail();
+        Uri photourl = currentuser.getPhotoUrl();
+
         if (firebaseAuth != null){
 
             //set photo from current user
-            Glide.with(Profile_Activity.this).load(currentuser.getPhotoUrl()).into(profilephoto);
+            Glide.with(Profile_Activity.this).load(photourl).into(profilephoto);
 
             //set name
-            username.setText(currentuser.getDisplayName());
-            EmailId.setText(currentuser.getEmail());
+            username.setText(str_username);
+            EmailId.setText(str_email);
 
         }
 

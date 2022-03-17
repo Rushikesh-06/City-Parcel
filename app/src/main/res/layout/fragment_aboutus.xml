@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutus">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_margin="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="ABOUT"
+               android:textSize="20dp"
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               android:layout_margin="5dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="15dp"
+               android:text="A magnificent seating area, bright and elegant ambience mark the interiors of Gallery Cafe. The place offers a wide range of Continental delicacies and even little ones can enjoy a scrumptious meal as the restaurant offers a separate menu for kids. The Fine Dining restaurant is for people who are very specific about the excellent quality of food and services."
+               android:padding="10dp"
+               android:layout_marginHorizontal="5dp"/>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Cuisine"
+               android:textSize="20dp"
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               android:layout_margin="5dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="15dp"
+               android:text="Cafe,salad,Continential,Fast Food,Desserts"
+               android:padding="10dp"
+               android:layout_marginHorizontal="5dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Type"
+               android:textSize="20dp"
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               android:layout_margin="5dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="15dp"
+               android:text="Breakfast,Fine dining,Lounge,Buffet,Cafe,Luxury Dining,Lunch Buffet,Dinner Buffet,,Dineout pay,Breakfast Buffet"
+               android:padding="10dp"
+               android:layout_marginHorizontal="5dp"/>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Average Cost"
+               android:textSize="20dp"
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               android:layout_margin="5dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="15dp"
+               android:text="Rs. 500 for two peoples"
+               android:padding="10dp"
+               android:layout_marginHorizontal="5dp"/>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Facility &amp; Features"
+               android:textSize="20dp"
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               android:layout_margin="5dp"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="50dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Air Conditioned"
+                   android:layout_margin="10dp"
+                   android:padding="6dp"
+                   android:drawableLeft="@drawable/ic_baseline_done"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Wifi  "
+                   android:layout_margin="10dp"
+                   android:padding="6dp"
+                   android:drawableLeft="@drawable/ic_baseline_done"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Parking"
+                   android:layout_margin="10dp"
+                   android:padding="6dp"
+                   android:drawableLeft="@drawable/ic_baseline_done"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="50dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Wallet Accepted"
+                   android:layout_margin="10dp"
+                   android:padding="6dp"
+                   android:drawableLeft="@drawable/ic_baseline_done"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Cards Accepted"
+                   android:layout_margin="10dp"
+                   android:padding="6dp"
+                   android:drawableLeft="@drawable/ic_baseline_done"/>
+
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Address"
+               android:textSize="20dp"
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               android:layout_margin="5dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="15dp"
+               android:text="G1,Ground Floor,Morya classic,off Link Road"
+               android:padding="10dp"
+               android:drawableLeft="@drawable/ic_baseline_location"
+               android:layout_marginHorizontal="5dp"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="15dp"
+               android:text="+91 9833045917"
+               android:padding="10dp"
+               android:drawableLeft="@drawable/ic_baseline_phone_new"
+               android:layout_marginHorizontal="5dp"/>
+
+
+       </LinearLayout>
+   </RelativeLayout>
+
+</FrameLayout>
+</ScrollView>

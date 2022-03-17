@@ -8,6 +8,7 @@
     android:background="@android:color/darker_gray"
     tools:context=".Home_fragment">
 
+
     <!-- TODO: Update blank fragment layout -->
     <ScrollView
         android:layout_width="match_parent"
@@ -361,7 +362,7 @@
                         android:gravity="right"
                         android:padding="3dp"
                         android:text="View All"
-                        android:textColor="@android:color/holo_red_dark"
+                        android:textColor="@android:color/holo_orange_dark"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -393,15 +394,20 @@
                 android:layout_margin="10dp"
                 android:orientation="vertical">
 
-                <LinearLayout
+
+                <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
+
 
                     <TextView
                         android:id="@+id/gift_item_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
                         android:text="Gift Items"
                         android:textSize="20dp"
                         android:textStyle="bold" />
@@ -409,15 +415,24 @@
                     <TextView
                         android:id="@+id/viewall_gift"
                         android:layout_width="100dp"
-                        android:layout_height="20dp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
                         android:gravity="right"
+                        android:padding="3dp"
                         android:text="View All"
-                        android:textColor="@android:color/holo_red_dark"
+                        android:textColor="@android:color/holo_orange_dark"
+                        android:textSize="15dp"
                         android:textStyle="bold" />
 
-                </LinearLayout>
+
+                </RelativeLayout>
+
+
+
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/GiftItem_list"
@@ -452,6 +467,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:visibility="gone"
                     android:layout_width="100dp"
                     android:layout_height="20dp"
                     android:layout_gravity="center_vertical"

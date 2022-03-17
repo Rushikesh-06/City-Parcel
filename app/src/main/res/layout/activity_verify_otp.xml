@@ -77,6 +77,19 @@
             android:orientation="horizontal"
             android:padding="5dp">
 
+            <com.example.cityparcel.OtpEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="20dp"
+                android:textColor="@color/black"
+                android:textIsSelectable="false"
+                android:maxLength="4"
+                android:digits="0123456789"
+                android:inputType="number"
+                android:gravity="center"/>
+
+            <!--
+
             <EditText
                 android:background="@drawable/otpedittext"
                 android:layout_margin="10dp"
@@ -96,7 +109,7 @@
                 android:background="@drawable/otpedittext"
                 android:layout_margin="10dp"
                 android:layout_width="40dp"
-                android:layout_height="40dp"/>
+                android:layout_height="40dp"/>-->
 
         </LinearLayout>
 

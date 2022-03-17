@@ -45,6 +45,7 @@ public class LogIn_activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(LogIn_activity.this,Verify_otp.class));
+                finish();
             }
         });
 

@@ -14,6 +14,8 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.util.Calendar;
+
 public class birthdate_anniversarydate extends AppCompatActivity {
     TextView birthdate, anniversarydate;
     private String TAG = getClass().getSimpleName();
@@ -33,8 +35,11 @@ public class birthdate_anniversarydate extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                Calendar minage = Calendar.getInstance();
+                minage.add(Calendar.YEAR,-18);
                 DatePickerDialog datePickerDialog;
                 datePickerDialog = new DatePickerDialog(birthdate_anniversarydate.this);
+                datePickerDialog.getDatePicker().setMaxDate(minage.getTimeInMillis());
                 datePickerDialog.setOnDateSetListener(new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
@@ -71,6 +76,7 @@ public class birthdate_anniversarydate extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(birthdate_anniversarydate.this,BaseActivity.class) );
+                finish();
 
             }
         });

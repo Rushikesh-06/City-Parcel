@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circle_imageview"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginHorizontal="10dp"
+            android:src="@drawable/ic_baseline_person" />
+
+        <TextView
+            android:id="@+id/review_username"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/circle_imageview"
+            android:text="Pankaj Jadhav"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/review_username"
+            android:text="10 March 2022" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/review_username"
+            android:layout_toRightOf="@+id/circle_imageview"
+            android:text="&#9733;&#9733;&#9733;&#9733;&#9734;"
+            android:textSize="25dp"
+            android:textColor="@android:color/holo_green_dark"/>
+
+
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/reviewheading"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Food is really amazing"
+            android:textColor="@color/black"
+            android:textSize="18dp"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:id="@+id/reviewdesc_line1"
+            android:text="Superb food and hospitality.Had a lovely time with my family,"
+            android:textSize="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:id="@+id/reviewdesc_line2"
+            android:text="All the environment is really very deligtfull and live orchestra"
+            android:textSize="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:id="@+id/reviewdesc_line3"
+            android:text="was most entertaining."
+            android:textSize="13dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/black"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

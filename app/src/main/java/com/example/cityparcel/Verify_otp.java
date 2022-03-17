@@ -20,6 +20,7 @@ public class Verify_otp extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Verify_otp.this,birthdate_anniversarydate.class));
+                finish();
 
             }
         });

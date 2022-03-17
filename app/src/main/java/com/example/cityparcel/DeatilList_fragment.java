@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +20,7 @@ public class DeatilList_fragment extends Fragment {
 
     RecyclerView detaillist_RV;
     FrameLayout detailListFrame;
+    ImageView favorite;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
