@@ -52,7 +52,7 @@ public class fragment1 extends Fragment {
         test.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent test = new Intent(getActivity(),BroadcastReceiver_activity.class);
+                Intent test = new Intent(getActivity(),checkout_activity.class);
                 startActivity(test);
                 getActivity().finish();
             }

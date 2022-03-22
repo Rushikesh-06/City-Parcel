@@ -13,13 +13,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.google.android.material.tabs.TabLayout;
 
 public class BaseActivity extends AppCompatActivity {
     NonSwipableViewPager BaseActivity_Pager;
     Menu menu;
-    Toolbar toolbar;
+    public Toolbar toolbar;
+    public TextView location;
     TabLayout tab;
 
 
@@ -29,9 +31,11 @@ public class BaseActivity extends AppCompatActivity {
         setContentView(R.layout.activity_base);
         toolbar = findViewById(R.id.toolbar);
         tab = findViewById(R.id.tab);
+        BaseActivity_Pager = findViewById(R.id.baseactivity_pager);
+        location = findViewById(R.id.location);
+
 
         setSupportActionBar(toolbar);
-        BaseActivity_Pager = findViewById(R.id.baseactivity_pager);
 
         BaseActivityAdapter basepageradapter = new com.example.cityparcel.BaseActivityAdapter(getSupportFragmentManager());
         BaseActivity_Pager.setAdapter(basepageradapter);

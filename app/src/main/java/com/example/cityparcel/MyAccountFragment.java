@@ -1,3 +1,4 @@
+
 package com.example.cityparcel;
 
 import android.content.Intent;
@@ -27,7 +28,7 @@ public class MyAccountFragment extends Fragment {
 
     ImageView profilephoto;
     TextView username,EmailId;
-    Button logout;
+    Button logout,profiletest;
     FirebaseAuth firebaseAuth;
     GoogleSignInClient googleSignInClient;
 
@@ -35,7 +36,7 @@ public class MyAccountFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.activity_profile,container,false);
+        View view = inflater.inflate(R.layout.activity_profile_fragment,container,false);
 
 
 
@@ -43,7 +44,14 @@ public class MyAccountFragment extends Fragment {
         logout = view.findViewById(R.id.logout);
         username = view.findViewById(R.id.username);
         EmailId = view.findViewById(R.id.emailid);
+        profiletest = view.findViewById(R.id.profiletest);
 
+        profiletest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(),Profile_Activity.class));
+            }
+        });
         firebaseAuth = FirebaseAuth.getInstance();
         FirebaseUser currentuser = firebaseAuth.getCurrentUser();
 

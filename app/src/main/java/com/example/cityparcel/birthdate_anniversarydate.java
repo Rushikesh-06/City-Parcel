@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
@@ -75,6 +76,14 @@ public class birthdate_anniversarydate extends AppCompatActivity {
         submit_date.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+
+                SharedPreferences preferences = getSharedPreferences("CityParcel", MODE_PRIVATE);
+                SharedPreferences.Editor editor = preferences.edit();
+                editor.putString("Birthdate",birthdate.getText().toString());
+                editor.putString("AnniversaryDate",anniversarydate.getText().toString());
+                editor.commit();
+
                 startActivity(new Intent(birthdate_anniversarydate.this,BaseActivity.class) );
                 finish();
 

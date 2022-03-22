@@ -44,8 +44,9 @@ public class Home_fragment extends Fragment {
         giftitem_layout = view.findViewById(R.id.giftitem_layout);
         viewall_farm = view.findViewById(R.id.viewall_farm);
         viewall_gift = view.findViewById(R.id.viewall_gift);
-
-
+        
+        BaseActivity activity =(BaseActivity)getActivity() ;
+        activity.location.setText("City Parcel");
 
 
         //open fragment of detaillist

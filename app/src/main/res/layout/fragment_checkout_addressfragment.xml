@@ -85,6 +85,49 @@
             android:background="@drawable/otpedittext"
             android:layout_margin="10dp"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Type of Address"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center_vertical"
+            android:padding="2dp"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_home"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="Home"
+                android:layout_margin="5dp"
+                android:padding="4dp"
+                android:textSize="15dp"/>
+            <RadioButton
+                android:id="@+id/radio_office"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="Office"
+                android:layout_margin="5dp"
+                android:padding="4dp"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Save this as my default address"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center_vertical"
+            android:padding="2dp"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
 
     </LinearLayout>
 

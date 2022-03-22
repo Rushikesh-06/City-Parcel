@@ -20,12 +20,12 @@
                 android:id="@+id/location"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:textColor="@color/white"
                 android:layout_alignParentLeft="true"
                 android:layout_centerVertical="true"
-                android:text="Location" />
+                android:text="Location"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:layout_width="50dp"
@@ -60,5 +60,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true" />
+    <FrameLayout
+        android:id="@+id/full_screen_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
 
 </RelativeLayout>
