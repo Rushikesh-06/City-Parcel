@@ -7,8 +7,9 @@ import androidx.appcompat.widget.Toolbar;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
-public class checkout_activity extends AppCompatActivity {
+public class checkout_activity extends AppCompatActivity{
     Menu menu;
     NonSwipableViewPager checkout_pager;
 
@@ -19,7 +20,20 @@ public class checkout_activity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         checkout_pager = findViewById(R.id.checkout_pager);
         setSupportActionBar(toolbar);
+
+        CheckoutAdapter pagerAdapter = new com.example.cityparcel.CheckoutAdapter(getSupportFragmentManager());
+        checkout_pager.setAdapter(pagerAdapter);
+
+
+        checkout_pager.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
     }
+
 
 
     @Override

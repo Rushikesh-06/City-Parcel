@@ -16,8 +16,6 @@ import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.HashMap;
-
 public class BroadcastReceiver_activity extends AppCompatActivity {
 
     private static final int MY_PERMISSIONS_REQUEST_RECEIVE_SMS = 0;
